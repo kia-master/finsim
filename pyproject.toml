@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+markers = [
+    "asset: marks tests for the Asset class",
+    "transaction: marks tests for the Transaction class",
+    "portfolio: marks tests for the Portfolio class",
+    "simulator: marks tests for the MarketSimulator class"
+]
