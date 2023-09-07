@@ -32,31 +32,29 @@
 2. Откройте терминал и перейдите в директорию проекта.
 3. Создайте виртуальное окружение:
     Для macOS и Linux:
-    ```bash
+    ```
     python3 -m venv venv
     ```
 4. Активируйте виртуальное окружение:
     Для macOS и Linux:
-    ```bash
+    ```
     source venv/bin/activate
 5. Установите зависимости:
-    ```bash
+    ```
     pip install -r requirements.txt
     ```
 
 ## Запуск симуляции
 
 Запустите симуляцию, выполнив следующую команду:
-
-    ```bash
+    ```
     python run_simulator.py
     ```
 
 ## Запуск тестов
 
 Запустите unit-тесты:
-
-    ```bash
+    ```
     pytest test_market_simulator.py
     ```
 
